@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--
+  R2412-4S2P-LNYD · EU Battery Compliance Document Page (scanned source, image-first)
+  Design constraints kept from skeleton:
+   1. single file, no CDN / no webfonts
+   2. rows are label-above on narrow screens, two-column >=560px
+   3. all images lazy + async decode
+   4. URL param field uses <span id="batch-no">, injected by script below
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<title>R2412-4S2P-LNYD · EU Battery Compliance</title>
+<meta name="description" content="EU Declaration of Conformity and battery information for Rechargeable Lithium-ion Battery Pack R2412-4S2P-LNYD (DOC-EPT-R2412-4S2P-LNYD-260912).">
+<style>
+  :root{
+    --ink:#122a3f; --ink-2:#41586e; --ink-3:#78899a;
+    --line:#e3eaf1; --bg:#f2f6f9; --card:#fff;
+    --accent:#0d6d5b; --accent-soft:#e8f4f1; --hl:#fff9d6;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-size:14.5px;line-height:1.62;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  .wrap{max-width:800px;margin:0 auto;padding:0 16px}
+
+  .topbar{position:sticky;top:0;z-index:40;background:rgba(242,246,249,.9);
+    backdrop-filter:saturate(180%) blur(14px);-webkit-backdrop-filter:saturate(180%) blur(14px);
+    border-bottom:1px solid var(--line)}
+  .topbar .inner{max-width:800px;margin:0 auto;padding:9px 16px;display:flex;align-items:center;gap:10px}
+  .brandmark{width:30px;height:30px;border-radius:9px;flex:0 0 auto;
+    background:linear-gradient(140deg,#0d6d5b,#0f8a70);color:#fff;font-size:11px;font-weight:700;
+    display:flex;align-items:center;justify-content:center}
+  .topbar .t{font-size:12.5px;font-weight:600;line-height:1.3}
+  .topbar .t small{display:block;font-weight:400;font-size:10.5px;color:var(--ink-3)}
+
+  .hero{color:#fff;padding:26px 0 30px;position:relative;overflow:hidden;
+    background:radial-gradient(120% 120% at 88% -10%, #16896f 0%, rgba(22,137,111,0) 55%),
+      linear-gradient(155deg,#0c2436 0%,#123c4d 55%,#0d5a52 100%)}
+  .kicker{font-size:10.5px;letter-spacing:1.5px;text-transform:uppercase;color:#9fd8c9;
+    font-weight:700;margin-bottom:11px;display:inline-flex;align-items:center;gap:7px}
+  .kicker:before{content:"";width:18px;height:1px;background:#9fd8c9}
+  .hero h1{margin:0;font-size:24px;line-height:1.3;font-weight:700;letter-spacing:-.2px}
+  .hero p.lead{margin:8px 0 0;color:#c3d9d5;font-size:13px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}
+  .chip{font-size:11px;padding:4px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.26);
+    color:#e7f3f0;background:rgba(255,255,255,.07);white-space:nowrap}
+  .chip.solid{background:#fff;color:#0c4e44;border-color:#fff;font-weight:600}
+
+  section{padding:26px 0 4px}
+  .sec-head{display:flex;align-items:baseline;gap:9px;margin-bottom:13px}
+  .sec-head .num{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--accent);
+    background:var(--accent-soft);padding:2px 8px;border-radius:6px;font-weight:700}
+  .sec-head h2{margin:0;font-size:16px;font-weight:700}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:2px 16px;box-shadow:0 1px 2px rgba(18,42,63,.04);margin-top:10px}
+
+  .row{display:block;padding:11px 0;border-bottom:1px solid var(--line)}
+  .row:last-child{border-bottom:0}
+  .row .k{font-size:11.5px;color:var(--ink-3);line-height:1.45;margin-bottom:3px}
+  .row .v{font-size:13.5px;color:var(--ink);word-break:break-word;line-height:1.58}
+  .row .v b{font-weight:600}
+  @media (min-width:560px){
+    .row{display:flex;gap:14px;align-items:flex-start;padding:10px 0}
+    .row .k{flex:0 0 152px;width:152px;margin-bottom:0}
+    .row .v{flex:1}
+  }
+  .subhead{margin:0 -16px;padding:7px 16px;background:#f6f9fb;border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);font-size:12px;font-weight:700;color:var(--ink-2)}
+  .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:12px}
+  .hl{background:var(--hl);border-radius:3px;padding:1px 3px;display:inline-block}
+
+  .kv{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:10px 0 0}
+  .kv .c{background:#fff;padding:11px 13px}
+  .kv .c .k{font-size:11px;color:var(--ink-3);margin-bottom:2px}
+  .kv .c .v{font-size:15px;font-weight:700}
+  .kv .c .v small{font-size:11px;font-weight:500;color:var(--ink-2);margin-left:2px}
+  .kv .c.wide{grid-column:1 / -1}
+  .kv .c.wide .v{font-size:13px;font-weight:500}
+
+  .note{background:var(--accent-soft);border:1px solid #cfe6df;border-radius:11px;
+    padding:10px 13px;font-size:12.5px;color:#0c4e44;margin-top:12px;line-height:1.6}
+  .note b{font-weight:700}
+
+  .langs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  @media (min-width:560px){.langs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+  .lang{background:#fff;border:1px solid var(--line);border-radius:11px;padding:10px 12px;
+    display:flex;align-items:center;gap:9px;font-size:13px;color:var(--ink);cursor:pointer}
+  .lang .pg{font-family:ui-monospace,Menlo,monospace;font-size:10.5px;color:var(--accent);
+    background:var(--accent-soft);border-radius:5px;padding:1px 6px;flex:0 0 auto}
+  .lang .nat{margin-left:auto;font-size:10.5px;color:var(--ink-3);max-width:52%;
+    text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+  .lb{position:fixed;inset:0;z-index:100;background:#0a0f14;display:none;
+    flex-direction:column;justify-content:center}
+  .lb.on{display:flex}
+  .lb img{max-width:100%;max-height:88vh;object-fit:contain;margin:0 auto}
+  .lb .bar{position:absolute;top:0;left:0;right:0;padding:12px 16px;display:flex;
+    justify-content:space-between;color:#cfe0dd;font-size:12px}
+  .lb .bar button{background:rgba(255,255,255,.14);border:0;color:#fff;border-radius:8px;
+    padding:6px 12px;font-size:13px}
+
+  footer{padding:26px 0 40px;color:var(--ink-3);font-size:11.5px;text-align:center;line-height:1.7}
+</style>
+</head>
+<body>
+
+<div class="topbar"><div class="inner">
+  <div class="brandmark">EPT</div>
+  <div class="t">EPT · EU Battery Compliance<small>R2412-4S2P-LNYD · DOC-EPT-R2412-4S2P-LNYD-260912</small></div>
+</div></div>
+
+<header class="hero"><div class="wrap">
+  <div class="kicker">EU Compliance</div>
+  <h1>R2412-4S2P-LNYD</h1>
+  <p class="lead">Rechargeable Lithium-ion Battery Pack for sweeping machines — EU Declaration of Conformity (EU) 2023/1542 &amp; battery information.</p>
+  <div class="chips">
+    <span class="chip solid">14.4V</span>
+    <span class="chip">Rated 4800mAh</span>
+    <span class="chip">Typical 5200mAh</span>
+    <span class="chip">69.12Wh</span>
+    <span class="chip">Li-ion NMC</span>
+  </div>
+</div></header>
+
+<main class="wrap">
+
+  <section id="info">
+    <div class="sec-head"><span class="num">I</span><h2>General Information of Batteries</h2></div>
+    <div class="card">
+      <div class="subhead">1 &nbsp;Manufacturer Information</div>
+      <div class="row"><div class="k">Battery manufacturer</div><div class="v"><b>Shenzhen EPT Battery Co., Ltd.</b></div></div>
+      <div class="row"><div class="k">Trademark</div><div class="v">EPT</div></div>
+      <div class="row"><div class="k">Manufacturer's address</div><div class="v">Building 3, Huancheng Industrial Park, No.41 Dalang North Road, Dalang Street, Longhua District, Shenzhen City, Guangdong Province, P.R. China</div></div>
+      <div class="row"><div class="k">E-mail</div><div class="v">info@ept-battery.com</div></div>
+      <div class="row"><div class="k">Postal Code</div><div class="v">518109</div></div>
+      <div class="row"><div class="k">Website</div><div class="v">www.ept-battery.com</div></div>
+    </div>
+
+    <div class="card">
+      <div class="subhead">2 &nbsp;Battery Category &amp; Identification</div>
+      <div class="row"><div class="k">Battery Category</div><div class="v">Portable Battery</div></div>
+      <div class="row"><div class="k">Product name</div><div class="v">Rechargeable Lithium-ion Battery Pack</div></div>
+      <div class="row"><div class="k">Model</div><div class="v"><b>R2412-4S2P-LNYD</b></div></div>
+      <div class="row"><div class="k">Nominal voltage</div><div class="v">14.4V</div></div>
+      <div class="row"><div class="k">Typical Capacity</div><div class="v hl">5200mAh</div></div>
+      <div class="row"><div class="k">Rated Capacity</div><div class="v hl">4800mAh</div></div>
+      <div class="row"><div class="k">Rated energy</div><div class="v">69.12Wh</div></div>
+      <!-- URL param field: value injected from the bare query string, blank if absent -->
+      <div class="row"><div class="k">Batch number/serial number</div>
+        <div class="v mono" style="font-size:12.5px"><span id="batch-no"></span></div></div>
+      <div class="row"><div class="k">Object of the Declaration</div><div class="v">Rechargeable Lithium-ion Battery Pack model no. R2412-4S2P-LNYD Used for sweeping machines</div></div>
+    </div>
+
+    <div class="card">
+      <div class="subhead">3 – 7 &nbsp;Manufacture &amp; Properties</div>
+      <div class="row"><div class="k">Place of Manufacture</div><div class="v">Shenzhen, China</div></div>
+      <div class="row"><div class="k">Date of Manufacture</div><div class="v">Refer to the production date marked on the battery label, e.g. YYYY-MM</div></div>
+      <div class="row"><div class="k">Weight</div><div class="v">0.39±0.02kg</div></div>
+      <div class="row"><div class="k">Capacity</div><div class="v">Rated capacity: 4800mAh/Typical Capacity: 5200mAh</div></div>
+      <div class="row"><div class="k">Chemical Composition</div><div class="v">Li-ion NMC</div></div>
+      <div class="row"><div class="k">Hazardous Substances (excl. Hg/Cd/Pb)</div><div class="v">None of the hazardous substances other than mercury, cadmium or lead are present in the battery above the concentration limits set out in Regulation (EC) No 1907/2006 (REACH) and Regulation (EC) No 1272/2008 (CLP).</div></div>
+      <div class="row"><div class="k">Usable Extinguishing Agent</div><div class="v">Dry powder fire extinguishers, Water-based (water mist) fire extinguisher</div></div>
+      <div class="row"><div class="k">Critical Raw Materials &gt;0.1% w/w</div><div class="v">Cobalt:2.56%, Manganese:22.38%, Lithium:4.2%, Natural Graphite:20.23%, Copper:7.13%, Nickel:18.39%</div></div>
+    </div>
+  </section>
+
+  <section id="waste">
+    <div class="sec-head"><span class="num">II</span><h2>Waste Battery Management</h2></div>
+    <div class="card">
+      <div class="row"><div class="k">Description of Hazardous Substances</div><div class="v">This battery does not contain mercury, cadmium or lead exceeding the regulatory limits. The alkaline electrolyte (potassium hydroxide) contained is corrosive and may cause irritation if leaked. Do not short-circuit, disassemble, puncture or throw it into the fire.</div></div>
+      <div class="row"><div class="k">Correct classification and placement guidelines</div><div class="v"><b>Do not discard in household garbage or mixed garbage.</b><br>This symbol indicates that batteries must not be discarded together with unsorted household waste. Make sure the battery is removed safely and discarded at an appropriate recycling facility. Do not improperly dispose of old batteries. Unneeded batteries should be discarded at an appropriate recycling facility. Waste batteries contain hazardous heavy metals and critical raw materials, which cause pollution to soil and water if disposed of in general waste. All waste portable batteries must be collected separately at dedicated collection points for professional recycling, resource recovery and harmless treatment. The battery must be removed and discarded according to local laws and regulations before disposal of the appliance.<br>Under abusive conditions, liquid may be ejected from the battery. If contact occurs, flush with water and seek medical help.<br>Do not puncture or crush the battery. Do not dispose of swollen or leaking batteries in normal collection boxes; contact local waste authorities for special handling.</div></div>
+    </div>
+  </section>
+
+  <section id="doc">
+    <div class="sec-head"><span class="num">III</span><h2>EU Declaration of Conformity</h2></div>
+    <div class="card">
+      <div class="row"><div class="k">Document number</div><div class="v mono">DOC-EPT-R2412-4S2P-LNYD-260912</div></div>
+      <div class="row"><div class="k">Battery Category</div><div class="v">Portable Battery</div></div>
+      <div class="row"><div class="k">Product name / Model</div><div class="v">Rechargeable Lithium-ion Battery Pack · R2412-4S2P-LNYD</div></div>
+      <div class="row"><div class="k">Nominal voltage / Rated capacity / Rated energy</div><div class="v">14.4V · 4800mAh · 69.12Wh</div></div>
+      <div class="row"><div class="k">Batch number/serial</div><div class="v mono">03020200000556 67D E 0 00001 S3B</div></div>
+      <div class="row"><div class="k">Battery manufacturer / Trademark</div><div class="v">Shenzhen EPT Battery Co., Ltd. · EPT</div></div>
+      <div class="row"><div class="k">Importer information</div><div class="v">same as the end product</div></div>
+      <div class="row"><div class="k">Declaration</div><div class="v">The above referenced product is in conformity with the applicable requirements of the following regulations: (EU) 2023/1542; declaration of conformity is issued under the sole responsibility of the manufacturer (Shenzhen EPT Battery Co., Ltd.).</div></div>
+      <div class="row"><div class="k">Referred regulations</div><div class="v">(1) Regulation (EC) No 1907/2006 -- REACH<br>(2) Regulation (EU) 2023/1542 -- Batteries and waste batteries<br>(3) Directive 2011/65/EU -- RoHS<br>(4) Directive 2014/30/EU -- EMC<br>(5) UN 38.3 -- Transport safety of lithium batteries</div></div>
+      <div class="row"><div class="k">Harmonised standards</div><div class="v">EN IEC 62133-2:2017 + A1:2021 -- Safety of portable rechargeable Li-ion cells/batteries<br>EN IEC 61000-6-3:2021 -- Electromagnetic compatibility (EMC)<br>UN Manual of Tests and Criteria, Part III, Section 38.3 -- Lithium battery transport test</div></div>
+      <div class="row"><div class="k">Signed for and on behalf of</div><div class="v">Shenzhen, 2026.9.12 — Evan Xiong, Quality Director</div></div>
+    </div>
+    <div class="note">Conformity Marking: <b>CE</b> · Waste battery symbol (crossed-out wheelie bin) as shown on the original document. Scroll down to view the original signed pages.</div>
+  </section>
+
+  <section id="pages">
+    <div class="sec-head"><span class="num">IV</span><h2>Original Pages (25)</h2></div>
+    <div class="langs" id="langs"></div>
+  </section>
+
+</main>
+
+<div class="lb" id="lb">
+  <div class="bar"><span id="lbT"></span><button id="lbX">Close</button></div>
+  <img id="lbI" alt="">
+</div>
+
+<footer>Shenzhen EPT Battery Co., Ltd.<br>www.ept-battery.com</footer>
+
+<script>
+/* 1) URL param: bare query string after "?" -> batch number field; empty -> blank */
+(function(){
+  var q = location.search.replace(/^\?/, '');
+  try { q = decodeURIComponent(q); } catch(e){}
+  q = q.replace(/\+/g, ' ').trim();
+  var el = document.getElementById('batch-no');
+  if (el) el.textContent = q;
+})();
+
+/* 2) Original page index + fullscreen viewer (swipe left/right) */
+(function(){
+  var PAGES = [
+    {p:1,  code:'Info',       nm:'Battery Information'},
+    {p:2,  code:'English',    nm:'EU Declaration of Conformity'},
+    {p:3,  code:'Malti',      nm:'Dikjarazzjoni ta\u2019 Konformit\u00e0 tal-UE'},
+    {p:4,  code:'Rom\u00e2n\u0103',  nm:'Declara\u021bie de conformitate UE'},
+    {p:5,  code:'Gaeilge',    nm:'Dearbh\u00fa Comhl\u00edreachta AE'},
+    {p:6,  code:'\u0411\u044a\u043b\u0433\u0430\u0440\u0441\u043a\u0438', nm:'\u0414\u0435\u043a\u043b\u0430\u0440\u0430\u0446\u0438\u044f \u0437\u0430 \u0441\u044a\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0438\u0435 \u043d\u0430 \u0415\u0421'},
+    {p:7,  code:'Magyar',     nm:'EU-megfelel\u0151s\u00e9gi nyilatkozat'},
+    {p:8,  code:'English',    nm:'EU Declaration of Conformity'},
+    {p:9,  code:'Fran\u00e7ais', nm:'D\u00e9claration UE de conformit\u00e9'},
+    {p:10, code:'Espa\u00f1ol', nm:'Declaraci\u00f3n de conformidad de la UE'},
+    {p:11, code:'Portugu\u00eas', nm:'Declara\u00e7\u00e3o de Conformidade da UE'},
+    {p:12, code:'Italiano',   nm:'Dichiarazione di conformit\u00e0 UE'},
+    {p:13, code:'Nederlands', nm:'EU-conformiteitsverklaring'},
+    {p:14, code:'Dansk',      nm:'EU-overensstemmelseserkl\u00e6ring'},
+    {p:15, code:'Svenska',    nm:'EU-f\u00f6rs\u00e4kran om \u00f6verensst\u00e4mmelse'},
+    {p:16, code:'Suomi',      nm:'EU-vaatimustenmukaisuusvakuutus'},
+    {p:17, code:'Eesti',      nm:'EL-i vastavusdeklaratsioon'},
+    {p:18, code:'Latvie\u0161u', nm:'ES atbilst\u012bbas deklar\u0101cija'},
+    {p:19, code:'Lietuvi\u0173', nm:'ES atitikties deklaracija'},
+    {p:20, code:'Polski',     nm:'Deklaracja zgodno\u015bci UE'},
+    {p:21, code:'\u010ce\u0161tina', nm:'Prohl\u00e1\u0161en\u00ed o shod\u011b EU'},
+    {p:22, code:'Sloven\u010dina', nm:'Vyhl\u00e1senie o zhode E\u00da'},
+    {p:23, code:'Sloven\u0161\u010dina', nm:'Izjava o skladnosti EU'},
+    {p:24, code:'Hrvatski',   nm:'Izjava o sukladnosti EU-a'},
+    {p:25, code:'\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac', nm:'\u0394\u03ae\u03bb\u03c9\u03c3\u03b7 \u03c3\u03c5\u03bc\u03c6\u03c9\u03c1\u03bf\u03c3\u03cd\u03bd\u03b7\u03c2 \u0395\u0395'}
+  ];
+  var wrap = document.getElementById('langs'), cur = 0;
+  PAGES.forEach(function(it, i){
+    var d = document.createElement('div');
+    d.className = 'lang';
+    d.innerHTML = '<span class="pg">p' + it.p + '</span><span>' + it.nm +
+                  '</span><span class="nat">' + it.code + '</span>';
+    d.onclick = function(){ open(i); };
+    wrap.appendChild(d);
+  });
+  var lb = document.getElementById('lb'), img = document.getElementById('lbI'),
+      tt = document.getElementById('lbT');
+  function src(p){ return 'img/p' + String(p).padStart(2, '0') + '.jpg'; }
+  function open(i){
+    cur = i; img.src = src(PAGES[i].p);
+    tt.textContent = PAGES[i].nm + ' · p' + PAGES[i].p;
+    lb.classList.add('on'); document.body.style.overflow = 'hidden';
+  }
+  function close(){ lb.classList.remove('on'); document.body.style.overflow = ''; }
+  document.getElementById('lbX').onclick = close;
+  lb.onclick = function(e){ if (e.target === lb) close(); };
+  var x0 = null;
+  lb.addEventListener('touchstart', function(e){ x0 = e.touches[0].clientX; }, {passive:true});
+  lb.addEventListener('touchend', function(e){
+    if (x0 === null) return;
+    var dx = e.changedTouches[0].clientX - x0; x0 = null;
+    if (Math.abs(dx) < 50) return;
+    var n = cur + (dx < 0 ? 1 : -1);
+    if (n >= 0 && n < PAGES.length) open(n);
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>
