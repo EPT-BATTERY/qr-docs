@@ -149,7 +149,7 @@
       <div class="c wide"><div class="k">Critical raw materials</div><div class="v">Ni、Co、C、Li</div></div>
       <!-- URL 传参字段：值由 ?<query> 注入 -->
       <div class="c wide"><div class="k">Batch number/serial number</div>
-        <div class="v mono" style="font-size:12.5px"><span id="batch-no"></span></div></div>
+        <div class="v mono" style="font-size:12.5px"><span id="batch-no">11/2026</span></div></div>
     </div>
   </section>
 
@@ -203,7 +203,7 @@
   try { q = decodeURIComponent(q); } catch(e){}
   q = q.replace(/\+/g, ' ').trim();
   var el = document.getElementById('batch-no');
-  if (el) el.textContent = q;
+  if (el && q) el.textContent = q;
 })();
 
 /* 2) 原件索引 + 全屏查看（左右滑动切换） */
