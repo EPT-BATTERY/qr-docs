@@ -202,7 +202,11 @@ window.I18N = {
     "docName": "Name: 熊黄文 Evan",
     "docPosition": "Position: Quality Director",
     "disclaimer": "Translations are provided for reference only. In case of any discrepancy, the English version shall prevail.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Battery compliance information"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Battery compliance information",
+    "secGeneralFull": "I. General Information of Batteries",
+    "conformityMarking": "Conformity Marking",
+    "signedPlaceDate": "(place and date of issue):",
+    "signedNameFunction": "(name, function) (signature)"
   },
   "zh": {
     "langLabel": "语言",
@@ -278,7 +282,11 @@ window.I18N = {
     "docName": "姓名：熊黄文 Evan",
     "docPosition": "职位：质量总监",
     "disclaimer": "译文仅供参考。如有任何差异，以英文版本为准。",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — 电池合规信息"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — 电池合规信息",
+    "secGeneralFull": "I. 电池一般信息",
+    "conformityMarking": "符合性标志",
+    "signedPlaceDate": "（签发地点和日期）：",
+    "signedNameFunction": "（姓名、职务）（签名）"
   },
   "bg": {
     "langLabel": "Език",
@@ -354,7 +362,11 @@ window.I18N = {
     "docName": "Име: 熊黄文 Evan",
     "docPosition": "Длъжност: Директор по качеството",
     "disclaimer": "Преводите са предоставени само за справка. При несъответствие предимство има версията на английски език.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Информация за съответствие на батерии"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Информация за съответствие на батерии",
+    "secGeneralFull": "I. Обща информация за батериите",
+    "conformityMarking": "Маркировка за съответствие",
+    "signedPlaceDate": "(място и дата на издаване):",
+    "signedNameFunction": "(име, длъжност) (подпис)"
   },
   "hr": {
     "langLabel": "Jezik",
@@ -430,7 +442,11 @@ window.I18N = {
     "docName": "Ime: 熊黄文 Evan",
     "docPosition": "Položaj: Direktor kvalitete",
     "disclaimer": "Prijevodi su dostavljeni samo za referencu. U slučaju bilo kakvog neslaganja, mjerodavna je inačica na engleskom jeziku.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informacije o sukladnosti baterija"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informacije o sukladnosti baterija",
+    "secGeneralFull": "I. Opće informacije o baterijama",
+    "conformityMarking": "Označivanje sukladnosti",
+    "signedPlaceDate": "(mjesto i datum izdavanja):",
+    "signedNameFunction": "(ime, funkcija) (potpis)"
   },
   "cs": {
     "langLabel": "Jazyk",
@@ -506,7 +522,11 @@ window.I18N = {
     "docName": "Jméno: 熊黄文 Evan",
     "docPosition": "Funkce: Ředitel kvality",
     "disclaimer": "Překlady jsou určeny pouze pro informační účely. V případě jakéhokoli rozporu platí anglická verze.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informace o souladu baterií"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informace o souladu baterií",
+    "secGeneralFull": "I. Obecné informace o bateriích",
+    "conformityMarking": "Označení shody",
+    "signedPlaceDate": "(místo a datum vydání):",
+    "signedNameFunction": "(jméno, funkce) (podpis)"
   },
   "da": {
     "langLabel": "Sprog",
@@ -582,7 +602,11 @@ window.I18N = {
     "docName": "Navn: 熊黄文 Evan",
     "docPosition": "Stilling: Kvalitetsdirektør",
     "disclaimer": "Oversættelserne er kun vejledende. I tilfælde af uoverensstemmelser gælder den engelske version.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Batterioverensstemmelsesoplysninger"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Batterioverensstemmelsesoplysninger",
+    "secGeneralFull": "I. Generel information om batterier",
+    "conformityMarking": "Overensstemmelsesmærkning",
+    "signedPlaceDate": "(sted og dato for udstedelse):",
+    "signedNameFunction": "(navn, funktion) (underskrift)"
   },
   "nl": {
     "langLabel": "Taal",
@@ -658,7 +682,11 @@ window.I18N = {
     "docName": "Naam: 熊黄文 Evan",
     "docPosition": "Functie: Kwaliteitsdirecteur",
     "disclaimer": "Vertalingen zijn uitsluitend ter referentie verstrekt. Bij eventuele afwijkingen geldt de Engelse versie.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informatie over de conformiteit van de batterij"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informatie over de conformiteit van de batterij",
+    "secGeneralFull": "I. Algemene informatie over batterijen",
+    "conformityMarking": "Conformiteitsmarkering",
+    "signedPlaceDate": "(plaats en datum van afgifte):",
+    "signedNameFunction": "(naam, functie) (handtekening)"
   },
   "et": {
     "langLabel": "Keel",
@@ -734,7 +762,11 @@ window.I18N = {
     "docName": "Nimi: 熊黄文 Evan",
     "docPosition": "Ametikoht: Kvaliteedidirektor",
     "disclaimer": "Tõlked on esitatud ainult tutvumiseks. Vastuolude korral kehtib inglisekeelne versioon.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Aku nõuetelevastavuse teave"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Aku nõuetelevastavuse teave",
+    "secGeneralFull": "I. Akude üldteave",
+    "conformityMarking": "Vastavusmärgistus",
+    "signedPlaceDate": "(väljaandmise koht ja kuupäev):",
+    "signedNameFunction": "(nimi, amet) (allkiri)"
   },
   "fi": {
     "langLabel": "Kieli",
@@ -810,7 +842,11 @@ window.I18N = {
     "docName": "Nimi: 熊黄文 Evan",
     "docPosition": "Asema: Laatujohtaja",
     "disclaimer": "Käännökset ovat vain ohjeelliset. Jos käännöksessä ja alkuperäisessä tekstissä on eroavuuksia, englanninkielinen versio on ensisijainen.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Akkujen vaatimustenmukaisuustiedot"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Akkujen vaatimustenmukaisuustiedot",
+    "secGeneralFull": "I. Yleiset tiedot paristoista",
+    "conformityMarking": "Vaatimustenmukaisuusmerkintä",
+    "signedPlaceDate": "(paikka ja antamispäivämäärä):",
+    "signedNameFunction": "(nimi, tehtävä) (allekirjoitus)"
   },
   "fr": {
     "langLabel": "Langue",
@@ -886,7 +922,11 @@ window.I18N = {
     "docName": "Nom : 熊黄文 Evan",
     "docPosition": "Fonction : Directeur qualité",
     "disclaimer": "Les traductions sont fournies à titre indicatif uniquement. En cas de divergence, la version anglaise prévaut.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informations sur la conformité des batteries"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informations sur la conformité des batteries",
+    "secGeneralFull": "I. Informations générales sur les batteries",
+    "conformityMarking": "marquage de conformité",
+    "signedPlaceDate": "(lieu et date de délivrance) :",
+    "signedNameFunction": "(nom, fonction) (signature)"
   },
   "de": {
     "langLabel": "Sprache",
@@ -962,7 +1002,11 @@ window.I18N = {
     "docName": "Name: 熊黄文 Evan",
     "docPosition": "Position: Qualitätsdirektor",
     "disclaimer": "Übersetzungen dienen nur zur Orientierung. Bei Abweichungen gilt die englische Version.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informationen zur Batteriekonformität"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informationen zur Batteriekonformität",
+    "secGeneralFull": "I. Allgemeine Informationen zu Batterien",
+    "conformityMarking": "Konformitätskennzeichen",
+    "signedPlaceDate": "(Ort und Datum der Ausstellung):",
+    "signedNameFunction": "(Name, Funktion) (Unterschrift)"
   },
   "el": {
     "langLabel": "Γλώσσα",
@@ -1038,7 +1082,11 @@ window.I18N = {
     "docName": "Όνομα: 熊黄文 Evan",
     "docPosition": "Θέση: Διευθυντής Ποιότητας",
     "disclaimer": "Οι μεταφράσεις παρέχονται μόνο για ενημερωτικούς σκοπούς. Σε περίπτωση οποιασδήποτε διαφοράς, η αγγλική έκδοση υπερισχύει.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Πληροφορίες συμμόρφωσης μπαταρίας"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Πληροφορίες συμμόρφωσης μπαταρίας",
+    "secGeneralFull": "I. Γενικές πληροφορίες για τις μπαταρίες",
+    "conformityMarking": "Σήμανση συμμόρφωσης",
+    "signedPlaceDate": "(τόπος και ημερομηνία έκδοσης):",
+    "signedNameFunction": "(όνομα, ιδιότητα) (υπογραφή)"
   },
   "hu": {
     "langLabel": "Nyelv",
@@ -1114,7 +1162,11 @@ window.I18N = {
     "docName": "Név: 熊黄文 Evan",
     "docPosition": "Beosztás: Minőségi igazgató",
     "disclaimer": "A fordítások csak tájékoztatási célokat szolgálnak. Bármely eltérés esetén az angol változat az irányadó.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Akkumulátor-megfelelőségi információk"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Akkumulátor-megfelelőségi információk",
+    "secGeneralFull": "I. Akkumulátorok általános információi",
+    "conformityMarking": "Megfelelőségi jelölés",
+    "signedPlaceDate": "(kiadás helye és dátuma):",
+    "signedNameFunction": "(név, beosztás) (aláírás)"
   },
   "ga": {
     "langLabel": "Teanga",
@@ -1190,7 +1242,11 @@ window.I18N = {
     "docName": "Ainm: 熊黄文 Evan",
     "docPosition": "Ról: Stiúrthóir Cáilíochta",
     "disclaimer": "Soláthraítear na haistriúcháin mar thagairt amháin. I gcás aon neamhréireachta, beidh an leagan Béarla i réim.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Faisnéis faoi chomhlíonadh ceallraí"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Faisnéis faoi chomhlíonadh ceallraí",
+    "secGeneralFull": "I. Faisnéis ghinearálta faoi cheallraí",
+    "conformityMarking": "Marcáil Chomhréireachta",
+    "signedPlaceDate": "(áit agus dáta eisiúna):",
+    "signedNameFunction": "(ainm, feidhm) (síniú)"
   },
   "it": {
     "langLabel": "Lingua",
@@ -1266,7 +1322,11 @@ window.I18N = {
     "docName": "Nome: 熊黄文 Evan",
     "docPosition": "Qualifica: Direttore della Qualità",
     "disclaimer": "Le traduzioni sono fornite solo a scopo informativo. In caso di discrepanze, prevarrà la versione in inglese.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informazioni sulla conformità della batteria"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informazioni sulla conformità della batteria",
+    "secGeneralFull": "I. Informazioni generali sulle batterie",
+    "conformityMarking": "Marcatura di conformità",
+    "signedPlaceDate": "(luogo e data di rilascio):",
+    "signedNameFunction": "(nome, funzione) (firma)"
   },
   "lv": {
     "langLabel": "Valoda",
@@ -1342,7 +1402,11 @@ window.I18N = {
     "docName": "Vārds: 熊黄文 Evan",
     "docPosition": "Amats: Kvalitātes direktors",
     "disclaimer": "Tulkojumi ir paredzēti tikai informācijai. Pretrunu gadījumā noteicošā ir angļu valodas versija.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Bateriju atbilstības informācija"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Bateriju atbilstības informācija",
+    "secGeneralFull": "I. Vispārīga informācija par baterijām",
+    "conformityMarking": "Atbilstības marķējums",
+    "signedPlaceDate": "(izdošanas vieta un datums):",
+    "signedNameFunction": "(vārds, amats) (paraksts)"
   },
   "lt": {
     "langLabel": "Kalba",
@@ -1418,7 +1482,11 @@ window.I18N = {
     "docName": "Vardas: 熊黄文 Evan",
     "docPosition": "Pareigybė: Kokybės direktorius",
     "disclaimer": "Vertimai pateikiami tik informaciniais tikslais. Esant bet kokių neatitikimų, vadovaujamasi anglų kalbos versija.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — baterijų atitikties informacija"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — baterijų atitikties informacija",
+    "secGeneralFull": "I. Bendroji informacija apie baterijas",
+    "conformityMarking": "Atitikties ženklas",
+    "signedPlaceDate": "(išdavimo vieta ir data):",
+    "signedNameFunction": "(vardas, pareigos) (parašas)"
   },
   "mt": {
     "langLabel": "Lingwa",
@@ -1494,7 +1562,11 @@ window.I18N = {
     "docName": "Isem: 熊黄文 Evan",
     "docPosition": "Pożizzjoni: Direttur tal-Kwalità",
     "disclaimer": "It-traduzzjonijiet huma pprovduti għal referenza biss. F'każ ta' xi diskrepanza, il-verżjoni bl-Ingliż għandha tgħodd.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informazzjoni dwar il-konformità tal-batteriji"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informazzjoni dwar il-konformità tal-batteriji",
+    "secGeneralFull": "I. Informazzjoni ġenerali dwar il-batteriji",
+    "conformityMarking": "Immarkar ta' Konformità",
+    "signedPlaceDate": "(post u data tal-ħruġ):",
+    "signedNameFunction": "(isem, funzjoni) (firma)"
   },
   "pl": {
     "langLabel": "Język",
@@ -1570,7 +1642,11 @@ window.I18N = {
     "docName": "Imię i nazwisko: 熊黄文 Evan",
     "docPosition": "Stanowisko: Dyrektor ds. Jakości",
     "disclaimer": "Tłumaczenia są dostarczane wyłącznie w celach informacyjnych. W przypadku rozbieżności obowiązuje wersja angielska.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informacje o zgodności baterii"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informacje o zgodności baterii",
+    "secGeneralFull": "I. Ogólne informacje o bateriach",
+    "conformityMarking": "Oznakowanie zgodności",
+    "signedPlaceDate": "(miejsce i data wystawienia):",
+    "signedNameFunction": "(imię i nazwisko, funkcja) (podpis)"
   },
   "pt": {
     "langLabel": "Idioma",
@@ -1646,7 +1722,11 @@ window.I18N = {
     "docName": "Nome: 熊黄文 Evan",
     "docPosition": "Cargo: Diretor de Qualidade",
     "disclaimer": "As traduções são fornecidas apenas para referência. Em caso de divergência, prevalece a versão em inglês.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informações de conformidade da bateria"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informações de conformidade da bateria",
+    "secGeneralFull": "I. Informações gerais sobre baterias",
+    "conformityMarking": "Marcação de conformidade",
+    "signedPlaceDate": "(local e data de emissão):",
+    "signedNameFunction": "(nome, função) (assinatura)"
   },
   "ro": {
     "langLabel": "Limbă",
@@ -1722,7 +1802,11 @@ window.I18N = {
     "docName": "Nume: 熊黄文 Evan",
     "docPosition": "Funcție: Director de calitate",
     "disclaimer": "Traducerile sunt furnizate doar cu titlu informativ. În cazul oricărei neconcordanțe, versiunea în limba engleză prevalează.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informații privind conformitatea bateriilor"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informații privind conformitatea bateriilor",
+    "secGeneralFull": "I. Informații generale privind bateriile",
+    "conformityMarking": "Marcaj de conformitate",
+    "signedPlaceDate": "(locul și data eliberării):",
+    "signedNameFunction": "(nume, funcție) (semnătură)"
   },
   "sk": {
     "langLabel": "Jazyk",
@@ -1798,7 +1882,11 @@ window.I18N = {
     "docName": "Meno: 熊黄文 Evan",
     "docPosition": "Funkcia: Riaditeľ kvality",
     "disclaimer": "Preklady sú poskytnuté iba na informačné účely. V prípade akýchkoľvek rozdielov je rozhodujúca verzia v anglickom jazyku.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informácie o zhode batérií"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informácie o zhode batérií",
+    "secGeneralFull": "I. Všeobecné informácie o batériách",
+    "conformityMarking": "Označenie zhody",
+    "signedPlaceDate": "(miesto a dátum vydania):",
+    "signedNameFunction": "(meno, funkcia) (podpis)"
   },
   "sl": {
     "langLabel": "Jezik",
@@ -1874,7 +1962,11 @@ window.I18N = {
     "docName": "Ime: 熊黄文 Evan",
     "docPosition": "Položaj: Direktor za kakovost",
     "disclaimer": "Prevodi so posredovani samo v informativne namene. V primeru kakršnegakoli neskladja velja angleška različica.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informacije o skladnosti baterij"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Informacije o skladnosti baterij",
+    "secGeneralFull": "I. Splošne informacije o baterijah",
+    "conformityMarking": "Označevanje skladnosti",
+    "signedPlaceDate": "(kraj in datum izdaje):",
+    "signedNameFunction": "(ime, funkcija) (podpis)"
   },
   "es": {
     "langLabel": "Idioma",
@@ -1950,7 +2042,11 @@ window.I18N = {
     "docName": "Nombre: 熊黄文 Evan",
     "docPosition": "Cargo: Director de Calidad",
     "disclaimer": "Las traducciones se proporcionan únicamente como referencia. En caso de discrepancia, prevalecerá la versión en inglés.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Información sobre la conformidad de la batería"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Información sobre la conformidad de la batería",
+    "secGeneralFull": "I. Información general sobre las baterías",
+    "conformityMarking": "Marcado de conformidad",
+    "signedPlaceDate": "(lugar y fecha de emisión):",
+    "signedNameFunction": "(nombre, cargo) (firma)"
   },
   "sv": {
     "langLabel": "Språk",
@@ -2026,6 +2122,10 @@ window.I18N = {
     "docName": "Namn: 熊黄文 Evan",
     "docPosition": "Befattning: Kvalitetsdirektör",
     "disclaimer": "Översättningarna tillhandahålls endast för referens. Vid eventuella avvikelser gäller den engelska versionen.",
-    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Information om batteriets överensstämmelse"
+    "footerNote": "Shenzhen EPT Battery Co., Ltd. — Information om batteriets överensstämmelse",
+    "secGeneralFull": "I. Allmän information om batterier",
+    "conformityMarking": "Överensstämmelsemärkning",
+    "signedPlaceDate": "(plats och datum för utfärdande):",
+    "signedNameFunction": "(namn, befattning) (underskrift)"
   }
 };

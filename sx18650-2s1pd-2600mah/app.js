@@ -27,15 +27,15 @@
   ];
 
   var otherFields = [
-    { l: 'lblPlace', v: '@valPlace' },
-    { l: 'lblDateMan', v: '@valDateMan' },
-    { l: 'lblWeight', v: '@valWeight' },
-    { l: 'lblCapacity', v: '2550mAh' },
-    { l: 'lblChemical', v: 'Li-ion NMC' },
-    { l: 'lblHazardous', v: '@valHazardous' },
-    { l: 'lblExtinguishing', v: '@valExtinguishing' },
-    { l: 'lblRaw', v: 'Li, Ni, Co, Mn, C, Al, Cu' },
-    { l: 'lblCodeDate', v: '@valCodeDate' }
+    { num: 3, l: 'lblPlace', v: '@valPlace' },
+    { num: 4, l: 'lblDateMan', v: '@valDateMan' },
+    { num: 5, l: 'lblWeight', v: '@valWeight' },
+    { num: 6, l: 'lblCapacity', v: '2550mAh' },
+    { num: 7, l: 'lblChemical', v: 'Li-ion NMC' },
+    { num: 8, l: 'lblHazardous', v: '@valHazardous' },
+    { num: 9, l: 'lblExtinguishing', v: '@valExtinguishing' },
+    { num: 10, l: 'lblRaw', v: 'Li, Ni, Co, Mn, C, Al, Cu' },
+    { num: 11, l: 'lblCodeDate', v: '@valCodeDate' }
   ];
 
   var snapshotFields = [
@@ -63,7 +63,13 @@
     wrap.className = 'kv' + (field.accent ? ' accent' : '');
 
     var dt = document.createElement('dt');
-    dt.textContent = t(field.l);
+    if (field.num) {
+      var badge = document.createElement('span');
+      badge.className = 'item-no';
+      badge.textContent = field.num;
+      dt.appendChild(badge);
+    }
+    dt.appendChild(document.createTextNode(t(field.l)));
     wrap.appendChild(dt);
 
     var dd = document.createElement('dd');
@@ -117,6 +123,8 @@
     renderGrid('manufacturerGrid', manufacturerFields);
     renderGrid('batteryGrid', batteryFields);
     renderGrid('otherGrid', otherFields);
+    renderGrid('docBatteryGrid', batteryFields);
+    renderGrid('docManufacturerGrid', manufacturerFields);
     renderSnapshot();
 
     var select = document.getElementById('langSelect');

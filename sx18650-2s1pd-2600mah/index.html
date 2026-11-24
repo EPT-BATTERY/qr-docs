@@ -61,12 +61,12 @@
     <div class="content">
 
       <section class="card" id="general">
-        <h2 class="section-title"><span class="num">01</span><span data-i18n="navGeneral">General Information</span></h2>
+        <h2 class="section-title"><span class="num">01</span><span data-i18n="secGeneralFull">General Information</span></h2>
 
-        <h3 class="block-title" data-i18n="secManufacturer">Manufacturer Information</h3>
+        <h3 class="block-title"><span class="item-no">1</span><span data-i18n="secManufacturer">Manufacturer Information</span></h3>
         <div class="kv-grid" id="manufacturerGrid"></div>
 
-        <h3 class="block-title" data-i18n="secIdentification">Battery Category &amp; Identification</h3>
+        <h3 class="block-title"><span class="item-no">2</span><span data-i18n="secIdentification">Battery Category &amp; Identification</span></h3>
         <div class="kv-grid" id="batteryGrid"></div>
 
         <h3 class="block-title" data-i18n="secOther">Additional Information</h3>
@@ -97,16 +97,30 @@
         </div>
 
         <ol class="numbered">
-          <li><p data-i18n="docConformity"></p></li>
-          <li><p data-i18n="docObject"></p></li>
-          <li><p data-i18n="docLegislation"></p></li>
           <li>
-            <p data-i18n="docRegs"></p>
-            <p class="std-label" data-i18n="docStandardsLabel"></p>
+            <p><b data-i18n="secIdentification"></b></p>
+            <div class="kv-grid doc-grid" id="docBatteryGrid"></div>
+          </li>
+          <li>
+            <p><b data-i18n="secManufacturer"></b></p>
+            <div class="kv-grid doc-grid" id="docManufacturerGrid"></div>
+          </li>
+          <li>
+            <p data-i18n="docConformity"></p>
+            <p class="marking"><span data-i18n="conformityMarking"></span><b>—</b></p>
+          </li>
+          <li><p data-i18n="docObject"></p></li>
+          <li>
+            <p data-i18n="docLegislation"></p>
+            <p class="doc-regs" data-i18n="docRegs"></p>
+          </li>
+          <li>
+            <p data-i18n="docStandardsLabel"></p>
             <p class="std-value" data-i18n="docStandards"></p>
           </li>
           <li>
             <p data-i18n="docAdditional"></p>
+            <p class="sign-template"><span data-i18n="signedPlaceDate"></span><span data-i18n="signedNameFunction"></span></p>
             <div class="signoff">
               <span data-i18n="docSigned"></span>
               <span data-i18n="docPlaceIssue"></span>

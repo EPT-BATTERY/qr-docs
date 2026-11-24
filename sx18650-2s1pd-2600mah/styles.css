@@ -154,6 +154,14 @@ a:focus-visible, select:focus-visible { outline: 3px solid var(--accent); outlin
   font-size: 14px; font-weight: 800; color: var(--brand-2); letter-spacing: .3px;
 }
 .block-title:first-of-type { margin-top: 0; }
+.block-title > span + span { margin-left: 2px; }
+.item-no {
+  display: inline-grid; place-items: center; flex: none;
+  min-width: 22px; height: 22px; padding: 0 5px; margin-right: 7px;
+  border-radius: 6px; background: var(--brand); color: #fff;
+  font-size: 11px; font-weight: 800; vertical-align: 1px;
+}
+.kv dt .item-no { min-width: 19px; height: 19px; font-size: 10px; margin-right: 6px; vertical-align: 0; }
 
 /* ---------- Key-value grid ---------- */
 .kv-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 18px; }
@@ -190,6 +198,14 @@ a:focus-visible, select:focus-visible { outline: 3px solid var(--accent); outlin
 }
 .doc-meta span { font-size: 11px; color: var(--muted); font-weight: 700; }
 .doc-meta strong { font-size: 14px; }
+.marking { display: flex; align-items: center; gap: 10px; margin-top: 10px !important; }
+.marking b { display: inline-grid; place-items: center; min-width: 44px; padding: 2px 10px; border: 1px dashed var(--accent); border-radius: 6px; color: var(--accent); font-size: 13px; }
+.doc-grid { margin-top: 10px; gap: 6px 12px; }
+.doc-grid .kv { padding: 7px 10px; background: #fff; }
+.doc-grid .kv dt { font-size: 10px; }
+.doc-grid .kv dd { font-size: 12px; }
+.doc-regs { margin-top: 10px !important; padding: 10px 14px; background: #fbfdff; border-radius: 8px; border: 1px solid var(--line); white-space: pre-line; }
+.sign-template { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 10px !important; font-size: 12px !important; color: var(--muted) !important; }
 .numbered { margin: 0; padding-left: 24px; display: grid; gap: 16px; }
 .numbered li { padding-left: 4px; font-size: 14px; color: #3d4f66; }
 .numbered li::marker { color: var(--accent); font-weight: 800; }
