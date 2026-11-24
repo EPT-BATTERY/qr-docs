@@ -44,10 +44,10 @@
           <span>Li-ion NMC</span>
         </div>
       </div>
-      <div class="hero-symbol" aria-hidden="true">
-        <div class="battery-shape"><span></span></div>
-        <div class="waste-mark">&#9749;<small>WEEE</small></div>
-      </div>
+      <figure class="hero-photo">
+        <img src="assets/battery-label.png" alt="SX18650-2S1PD battery label" class="zoomable">
+        <figcaption data-i18n="imgBatteryLabel">Battery label</figcaption>
+      </figure>
     </div>
   </section>
 
@@ -73,6 +73,22 @@
         <div class="kv-grid" id="otherGrid"></div>
 
         <p class="notice" data-i18n="reachText"></p>
+
+        <h3 class="block-title" data-i18n="imgBatteryLabel">Battery label</h3>
+        <div class="image-grid">
+          <figure class="image-card">
+            <img src="assets/battery-label.png" alt="Battery label" class="zoomable">
+            <figcaption><span data-i18n="imgBatteryLabel">Battery label</span><small data-i18n="imgZoomHint"></small></figcaption>
+          </figure>
+          <figure class="image-card">
+            <img src="assets/manufacturer-info.png" alt="Manufacturer and product information" class="zoomable">
+            <figcaption><span data-i18n="imgManufacturerInfo">Manufacturer and product information</span><small data-i18n="imgZoomHint"></small></figcaption>
+          </figure>
+        </div>
+        <figure class="image-card wide">
+          <img src="assets/date-code-table.png" alt="Production date code table" class="zoomable">
+          <figcaption><span data-i18n="imgDateCode">Production date code</span><small data-i18n="imgZoomHint"></small></figcaption>
+        </figure>
       </section>
 
       <section class="card" id="waste">
@@ -82,7 +98,14 @@
           <article class="waste-item"><h3 data-i18n="wasteSepTitle"></h3><p data-i18n="wasteSep"></p></article>
           <article class="waste-item"><h3 data-i18n="wastePointsTitle"></h3><p data-i18n="wastePoints"></p></article>
           <article class="waste-item"><h3 data-i18n="wasteSafeTitle"></h3><p data-i18n="wasteSafe"></p></article>
-          <article class="waste-item"><h3 data-i18n="wasteLabelsTitle"></h3><p data-i18n="wasteLabels"></p></article>
+          <article class="waste-item">
+            <h3 data-i18n="wasteLabelsTitle"></h3><p data-i18n="wasteLabels"></p>
+            <div class="symbol-row">
+              <figure class="symbol-card"><img src="assets/ce-marking.png" alt="CE marking" class="zoomable"><figcaption data-i18n="imgCE"></figcaption></figure>
+              <figure class="symbol-card"><img src="assets/waste-symbol.png" alt="Separate collection symbol" class="zoomable"><figcaption data-i18n="imgWEEE"></figcaption></figure>
+              <figure class="symbol-card"><img src="assets/waste-symbol-small.png" alt="Separate collection symbol" class="zoomable"><figcaption data-i18n="imgWEEE"></figcaption></figure>
+            </div>
+          </article>
           <article class="waste-item"><h3 data-i18n="wasteImpactTitle"></h3><p data-i18n="wasteImpact"></p></article>
         </div>
       </section>
@@ -107,7 +130,10 @@
           </li>
           <li>
             <p data-i18n="docConformity"></p>
-            <p class="marking"><span data-i18n="conformityMarking"></span><b>—</b></p>
+            <div class="marking">
+              <span data-i18n="conformityMarking"></span>
+              <img src="assets/ce-marking.png" alt="CE marking" class="marking-img zoomable">
+            </div>
           </li>
           <li><p data-i18n="docObject"></p></li>
           <li>
@@ -128,6 +154,10 @@
               <span data-i18n="docName"></span>
               <span data-i18n="docPosition"></span>
             </div>
+            <figure class="image-card stamp">
+              <img src="assets/signature-stamp.png" alt="Signature and company seal" class="zoomable">
+              <figcaption><span data-i18n="imgStamp"></span><small data-i18n="imgZoomHint"></small></figcaption>
+            </figure>
           </li>
         </ol>
       </section>
@@ -156,6 +186,11 @@
     <p class="disclaimer" data-i18n="disclaimer"></p>
   </div>
 </footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
 
 <script src="i18n.js"></script>
 <script src="app.js"></script>

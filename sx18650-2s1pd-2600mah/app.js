@@ -165,7 +165,31 @@
     });
   }
 
+  function setupLightbox() {
+    var box = document.getElementById('lightbox');
+    var img = document.getElementById('lightboxImg');
+    var close = document.getElementById('lightboxClose');
+    if (!box || !img || !close) return;
+    document.querySelectorAll('.zoomable').forEach(function (el) {
+      el.addEventListener('click', function () {
+        img.src = el.src;
+        img.alt = el.alt;
+        box.classList.add('open');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+    function hide() {
+      box.classList.remove('open');
+      img.src = '';
+      document.body.style.overflow = '';
+    }
+    close.addEventListener('click', hide);
+    box.addEventListener('click', function (e) { if (e.target === box || e.target === img) hide(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && box.classList.contains('open')) hide(); });
+  }
+
   buildLanguageOptions();
   currentLang = initialLanguage();
   render();
+  setupLightbox();
 })();

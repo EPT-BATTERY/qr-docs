@@ -206,7 +206,14 @@ window.I18N = {
     "secGeneralFull": "I. General Information of Batteries",
     "conformityMarking": "Conformity Marking",
     "signedPlaceDate": "(place and date of issue):",
-    "signedNameFunction": "(name, function) (signature)"
+    "signedNameFunction": "(name, function) (signature)",
+    "imgBatteryLabel": "Battery label",
+    "imgManufacturerInfo": "Manufacturer and product information",
+    "imgDateCode": "Production date code",
+    "imgCE": "CE marking",
+    "imgWEEE": "Separate collection symbol",
+    "imgStamp": "Signature and company seal",
+    "imgZoomHint": "Click to enlarge"
   },
   "zh": {
     "langLabel": "语言",
@@ -286,7 +293,14 @@ window.I18N = {
     "secGeneralFull": "I. 电池一般信息",
     "conformityMarking": "符合性标志",
     "signedPlaceDate": "（签发地点和日期）：",
-    "signedNameFunction": "（姓名、职务）（签名）"
+    "signedNameFunction": "（姓名、职务）（签名）",
+    "imgBatteryLabel": "电池标签",
+    "imgManufacturerInfo": "制造商与产品信息",
+    "imgDateCode": "生产日期代码",
+    "imgCE": "CE 标志",
+    "imgWEEE": "分类收集标志",
+    "imgStamp": "签名与公司印章",
+    "imgZoomHint": "点击放大"
   },
   "bg": {
     "langLabel": "Език",
@@ -366,7 +380,14 @@ window.I18N = {
     "secGeneralFull": "I. Обща информация за батериите",
     "conformityMarking": "Маркировка за съответствие",
     "signedPlaceDate": "(място и дата на издаване):",
-    "signedNameFunction": "(име, длъжност) (подпис)"
+    "signedNameFunction": "(име, длъжност) (подпис)",
+    "imgBatteryLabel": "Етикет на батерията",
+    "imgManufacturerInfo": "Информация за производителя и продукта",
+    "imgDateCode": "Код на датата на производство",
+    "imgCE": "Маркировка CE",
+    "imgWEEE": "Символ за разделно събиране",
+    "imgStamp": "Подпис и печат на фирмата",
+    "imgZoomHint": "Щракнете, за да увеличите"
   },
   "hr": {
     "langLabel": "Jezik",
@@ -446,7 +467,14 @@ window.I18N = {
     "secGeneralFull": "I. Opće informacije o baterijama",
     "conformityMarking": "Označivanje sukladnosti",
     "signedPlaceDate": "(mjesto i datum izdavanja):",
-    "signedNameFunction": "(ime, funkcija) (potpis)"
+    "signedNameFunction": "(ime, funkcija) (potpis)",
+    "imgBatteryLabel": "Etiketa baterije",
+    "imgManufacturerInfo": "Podaci o proizvođaču i proizvodu",
+    "imgDateCode": "Kod datuma proizvodnje",
+    "imgCE": "CE oznaka",
+    "imgWEEE": "Simbol za odvojeno prikupljanje",
+    "imgStamp": "Potpis i pečat tvrtke",
+    "imgZoomHint": "Kliknite za uvećanje"
   },
   "cs": {
     "langLabel": "Jazyk",
@@ -526,7 +554,14 @@ window.I18N = {
     "secGeneralFull": "I. Obecné informace o bateriích",
     "conformityMarking": "Označení shody",
     "signedPlaceDate": "(místo a datum vydání):",
-    "signedNameFunction": "(jméno, funkce) (podpis)"
+    "signedNameFunction": "(jméno, funkce) (podpis)",
+    "imgBatteryLabel": "Štítek baterie",
+    "imgManufacturerInfo": "Informace o výrobci a produktu",
+    "imgDateCode": "Kód data výroby",
+    "imgCE": "Označení CE",
+    "imgWEEE": "Symbol odděleného sběru",
+    "imgStamp": "Podpis a razítko společnosti",
+    "imgZoomHint": "Kliknutím zvětšíte"
   },
   "da": {
     "langLabel": "Sprog",
@@ -606,7 +641,14 @@ window.I18N = {
     "secGeneralFull": "I. Generel information om batterier",
     "conformityMarking": "Overensstemmelsesmærkning",
     "signedPlaceDate": "(sted og dato for udstedelse):",
-    "signedNameFunction": "(navn, funktion) (underskrift)"
+    "signedNameFunction": "(navn, funktion) (underskrift)",
+    "imgBatteryLabel": "Batterietiket",
+    "imgManufacturerInfo": "Producent- og produktoplysninger",
+    "imgDateCode": "Produktionsdato-kode",
+    "imgCE": "CE-mærkning",
+    "imgWEEE": "Symbol for separat indsamling",
+    "imgStamp": "Underskrift og virksomhedsstempel",
+    "imgZoomHint": "Klik for at forstørre"
   },
   "nl": {
     "langLabel": "Taal",
@@ -686,7 +728,14 @@ window.I18N = {
     "secGeneralFull": "I. Algemene informatie over batterijen",
     "conformityMarking": "Conformiteitsmarkering",
     "signedPlaceDate": "(plaats en datum van afgifte):",
-    "signedNameFunction": "(naam, functie) (handtekening)"
+    "signedNameFunction": "(naam, functie) (handtekening)",
+    "imgBatteryLabel": "Batterijlabel",
+    "imgManufacturerInfo": "Fabrikants- en productinformatie",
+    "imgDateCode": "Productiedatumcode",
+    "imgCE": "CE-markering",
+    "imgWEEE": "Symbool voor gescheiden inzameling",
+    "imgStamp": "Handtekening en bedrijfsstempel",
+    "imgZoomHint": "Klik om te vergroten"
   },
   "et": {
     "langLabel": "Keel",
@@ -766,7 +815,14 @@ window.I18N = {
     "secGeneralFull": "I. Akude üldteave",
     "conformityMarking": "Vastavusmärgistus",
     "signedPlaceDate": "(väljaandmise koht ja kuupäev):",
-    "signedNameFunction": "(nimi, amet) (allkiri)"
+    "signedNameFunction": "(nimi, amet) (allkiri)",
+    "imgBatteryLabel": "Aku etikett",
+    "imgManufacturerInfo": "Tootja ja toote teave",
+    "imgDateCode": "Tootmiskuupäeva kood",
+    "imgCE": "CE-märgis",
+    "imgWEEE": "Liigiti kogumise sümbol",
+    "imgStamp": "Allkiri ja ettevõtte pitser",
+    "imgZoomHint": "Klõpsake suurendamiseks"
   },
   "fi": {
     "langLabel": "Kieli",
@@ -846,7 +902,14 @@ window.I18N = {
     "secGeneralFull": "I. Yleiset tiedot paristoista",
     "conformityMarking": "Vaatimustenmukaisuusmerkintä",
     "signedPlaceDate": "(paikka ja antamispäivämäärä):",
-    "signedNameFunction": "(nimi, tehtävä) (allekirjoitus)"
+    "signedNameFunction": "(nimi, tehtävä) (allekirjoitus)",
+    "imgBatteryLabel": "Akun etiketti",
+    "imgManufacturerInfo": "Valmistaja- ja tuotetiedot",
+    "imgDateCode": "Tuotantopäivämääräkoodi",
+    "imgCE": "CE-merkintä",
+    "imgWEEE": "Erillisen keräyksen symboli",
+    "imgStamp": "Allekirjoitus ja yrityksen leima",
+    "imgZoomHint": "Napsauta suurentaaksesi"
   },
   "fr": {
     "langLabel": "Langue",
@@ -926,7 +989,14 @@ window.I18N = {
     "secGeneralFull": "I. Informations générales sur les batteries",
     "conformityMarking": "marquage de conformité",
     "signedPlaceDate": "(lieu et date de délivrance) :",
-    "signedNameFunction": "(nom, fonction) (signature)"
+    "signedNameFunction": "(nom, fonction) (signature)",
+    "imgBatteryLabel": "Étiquette de la batterie",
+    "imgManufacturerInfo": "Informations sur le fabricant et le produit",
+    "imgDateCode": "Code de date de production",
+    "imgCE": "Marquage CE",
+    "imgWEEE": "Symbole de collecte séparée",
+    "imgStamp": "Signature et cachet de l'entreprise",
+    "imgZoomHint": "Cliquer pour agrandir"
   },
   "de": {
     "langLabel": "Sprache",
@@ -1006,7 +1076,14 @@ window.I18N = {
     "secGeneralFull": "I. Allgemeine Informationen zu Batterien",
     "conformityMarking": "Konformitätskennzeichen",
     "signedPlaceDate": "(Ort und Datum der Ausstellung):",
-    "signedNameFunction": "(Name, Funktion) (Unterschrift)"
+    "signedNameFunction": "(Name, Funktion) (Unterschrift)",
+    "imgBatteryLabel": "Batterieetikett",
+    "imgManufacturerInfo": "Hersteller- und Produktinformationen",
+    "imgDateCode": "Herstellungsdatumscode",
+    "imgCE": "CE-Kennzeichnung",
+    "imgWEEE": "Symbol für getrennte Sammlung",
+    "imgStamp": "Unterschrift und Firmenstempel",
+    "imgZoomHint": "Zum Vergrößern klicken"
   },
   "el": {
     "langLabel": "Γλώσσα",
@@ -1086,7 +1163,14 @@ window.I18N = {
     "secGeneralFull": "I. Γενικές πληροφορίες για τις μπαταρίες",
     "conformityMarking": "Σήμανση συμμόρφωσης",
     "signedPlaceDate": "(τόπος και ημερομηνία έκδοσης):",
-    "signedNameFunction": "(όνομα, ιδιότητα) (υπογραφή)"
+    "signedNameFunction": "(όνομα, ιδιότητα) (υπογραφή)",
+    "imgBatteryLabel": "Ετικέτα μπαταρίας",
+    "imgManufacturerInfo": "Στοιχεία κατασκευαστή και προϊόντος",
+    "imgDateCode": "Κωδικός ημερομηνίας παραγωγής",
+    "imgCE": "Σήμανση CE",
+    "imgWEEE": "Σύμβολο χωριστής συλλογής",
+    "imgStamp": "Υπογραφή και σφραγίδα εταιρείας",
+    "imgZoomHint": "Κάντε κλικ για μεγέθυνση"
   },
   "hu": {
     "langLabel": "Nyelv",
@@ -1166,7 +1250,14 @@ window.I18N = {
     "secGeneralFull": "I. Akkumulátorok általános információi",
     "conformityMarking": "Megfelelőségi jelölés",
     "signedPlaceDate": "(kiadás helye és dátuma):",
-    "signedNameFunction": "(név, beosztás) (aláírás)"
+    "signedNameFunction": "(név, beosztás) (aláírás)",
+    "imgBatteryLabel": "Akkumulátor címkéje",
+    "imgManufacturerInfo": "Gyártói és termékinformációk",
+    "imgDateCode": "Gyártási dátumkód",
+    "imgCE": "CE-jelölés",
+    "imgWEEE": "Elkülönített gyűjtés jele",
+    "imgStamp": "Aláírás és céges pecsét",
+    "imgZoomHint": "Kattintson a nagyításhoz"
   },
   "ga": {
     "langLabel": "Teanga",
@@ -1246,7 +1337,14 @@ window.I18N = {
     "secGeneralFull": "I. Faisnéis ghinearálta faoi cheallraí",
     "conformityMarking": "Marcáil Chomhréireachta",
     "signedPlaceDate": "(áit agus dáta eisiúna):",
-    "signedNameFunction": "(ainm, feidhm) (síniú)"
+    "signedNameFunction": "(ainm, feidhm) (síniú)",
+    "imgBatteryLabel": "Lipéad na ceallraí",
+    "imgManufacturerInfo": "Faisnéis faoin monaróir agus faoin táirge",
+    "imgDateCode": "Cód an dáta táirgthe",
+    "imgCE": "Marcáil CE",
+    "imgWEEE": "Siombail an bhailithe ar leith",
+    "imgStamp": "Síniú agus séala na cuideachta",
+    "imgZoomHint": "Cliceáil chun méadú"
   },
   "it": {
     "langLabel": "Lingua",
@@ -1326,7 +1424,14 @@ window.I18N = {
     "secGeneralFull": "I. Informazioni generali sulle batterie",
     "conformityMarking": "Marcatura di conformità",
     "signedPlaceDate": "(luogo e data di rilascio):",
-    "signedNameFunction": "(nome, funzione) (firma)"
+    "signedNameFunction": "(nome, funzione) (firma)",
+    "imgBatteryLabel": "Etichetta della batteria",
+    "imgManufacturerInfo": "Informazioni sul fabbricante e sul prodotto",
+    "imgDateCode": "Codice della data di produzione",
+    "imgCE": "Marcatura CE",
+    "imgWEEE": "Simbolo della raccolta differenziata",
+    "imgStamp": "Firma e timbro dell'azienda",
+    "imgZoomHint": "Fare clic per ingrandire"
   },
   "lv": {
     "langLabel": "Valoda",
@@ -1406,7 +1511,14 @@ window.I18N = {
     "secGeneralFull": "I. Vispārīga informācija par baterijām",
     "conformityMarking": "Atbilstības marķējums",
     "signedPlaceDate": "(izdošanas vieta un datums):",
-    "signedNameFunction": "(vārds, amats) (paraksts)"
+    "signedNameFunction": "(vārds, amats) (paraksts)",
+    "imgBatteryLabel": "Baterijas etiķete",
+    "imgManufacturerInfo": "Ražotāja un produkta informācija",
+    "imgDateCode": "Ražošanas datuma kods",
+    "imgCE": "CE zīme",
+    "imgWEEE": "Atsevišķas savākšanas simbols",
+    "imgStamp": "Paraksts un uzņēmuma zīmogs",
+    "imgZoomHint": "Noklikšķiniet, lai palielinātu"
   },
   "lt": {
     "langLabel": "Kalba",
@@ -1486,7 +1598,14 @@ window.I18N = {
     "secGeneralFull": "I. Bendroji informacija apie baterijas",
     "conformityMarking": "Atitikties ženklas",
     "signedPlaceDate": "(išdavimo vieta ir data):",
-    "signedNameFunction": "(vardas, pareigos) (parašas)"
+    "signedNameFunction": "(vardas, pareigos) (parašas)",
+    "imgBatteryLabel": "Baterijos etiketė",
+    "imgManufacturerInfo": "Gamintojo ir produkto informacija",
+    "imgDateCode": "Pagaminimo datos kodas",
+    "imgCE": "CE ženklas",
+    "imgWEEE": "Atskiro surinkimo simbolis",
+    "imgStamp": "Parašas ir bendrovės antspaudas",
+    "imgZoomHint": "Spustelėkite, kad padidintumėte"
   },
   "mt": {
     "langLabel": "Lingwa",
@@ -1566,7 +1685,14 @@ window.I18N = {
     "secGeneralFull": "I. Informazzjoni ġenerali dwar il-batteriji",
     "conformityMarking": "Immarkar ta' Konformità",
     "signedPlaceDate": "(post u data tal-ħruġ):",
-    "signedNameFunction": "(isem, funzjoni) (firma)"
+    "signedNameFunction": "(isem, funzjoni) (firma)",
+    "imgBatteryLabel": "Tikketta tal-batterija",
+    "imgManufacturerInfo": "Informazzjoni dwar il-manifattur u l-prodott",
+    "imgDateCode": "Kodiċi tad-data tal-produzzjoni",
+    "imgCE": "Marka CE",
+    "imgWEEE": "Simbolu tal-ġbir separat",
+    "imgStamp": "Firma u timbru tal-kumpanija",
+    "imgZoomHint": "Ikklikkja biex tkabbar"
   },
   "pl": {
     "langLabel": "Język",
@@ -1646,7 +1772,14 @@ window.I18N = {
     "secGeneralFull": "I. Ogólne informacje o bateriach",
     "conformityMarking": "Oznakowanie zgodności",
     "signedPlaceDate": "(miejsce i data wystawienia):",
-    "signedNameFunction": "(imię i nazwisko, funkcja) (podpis)"
+    "signedNameFunction": "(imię i nazwisko, funkcja) (podpis)",
+    "imgBatteryLabel": "Etykieta baterii",
+    "imgManufacturerInfo": "Informacje o producencie i produkcie",
+    "imgDateCode": "Kod daty produkcji",
+    "imgCE": "Oznakowanie CE",
+    "imgWEEE": "Symbol zbiórki selektywnej",
+    "imgStamp": "Podpis i pieczątka firmy",
+    "imgZoomHint": "Kliknij, aby powiększyć"
   },
   "pt": {
     "langLabel": "Idioma",
@@ -1726,7 +1859,14 @@ window.I18N = {
     "secGeneralFull": "I. Informações gerais sobre baterias",
     "conformityMarking": "Marcação de conformidade",
     "signedPlaceDate": "(local e data de emissão):",
-    "signedNameFunction": "(nome, função) (assinatura)"
+    "signedNameFunction": "(nome, função) (assinatura)",
+    "imgBatteryLabel": "Rótulo da bateria",
+    "imgManufacturerInfo": "Informações do fabricante e do produto",
+    "imgDateCode": "Código da data de produção",
+    "imgCE": "Marcação CE",
+    "imgWEEE": "Símbolo de recolha separada",
+    "imgStamp": "Assinatura e carimbo da empresa",
+    "imgZoomHint": "Clique para ampliar"
   },
   "ro": {
     "langLabel": "Limbă",
@@ -1806,7 +1946,14 @@ window.I18N = {
     "secGeneralFull": "I. Informații generale privind bateriile",
     "conformityMarking": "Marcaj de conformitate",
     "signedPlaceDate": "(locul și data eliberării):",
-    "signedNameFunction": "(nume, funcție) (semnătură)"
+    "signedNameFunction": "(nume, funcție) (semnătură)",
+    "imgBatteryLabel": "Eticheta bateriei",
+    "imgManufacturerInfo": "Informații despre producător și produs",
+    "imgDateCode": "Codul datei fabricării",
+    "imgCE": "Marcajul CE",
+    "imgWEEE": "Simbolul colectării separate",
+    "imgStamp": "Semnătură și ștampila companiei",
+    "imgZoomHint": "Faceți clic pentru a mări"
   },
   "sk": {
     "langLabel": "Jazyk",
@@ -1886,7 +2033,14 @@ window.I18N = {
     "secGeneralFull": "I. Všeobecné informácie o batériách",
     "conformityMarking": "Označenie zhody",
     "signedPlaceDate": "(miesto a dátum vydania):",
-    "signedNameFunction": "(meno, funkcia) (podpis)"
+    "signedNameFunction": "(meno, funkcia) (podpis)",
+    "imgBatteryLabel": "Etiketa batérie",
+    "imgManufacturerInfo": "Informácie o výrobcovi a výrobku",
+    "imgDateCode": "Kód dátumu výroby",
+    "imgCE": "Označenie CE",
+    "imgWEEE": "Symbol triedeného zberu",
+    "imgStamp": "Podpis a pečiatka spoločnosti",
+    "imgZoomHint": "Kliknutím zväčšíte"
   },
   "sl": {
     "langLabel": "Jezik",
@@ -1966,7 +2120,14 @@ window.I18N = {
     "secGeneralFull": "I. Splošne informacije o baterijah",
     "conformityMarking": "Označevanje skladnosti",
     "signedPlaceDate": "(kraj in datum izdaje):",
-    "signedNameFunction": "(ime, funkcija) (podpis)"
+    "signedNameFunction": "(ime, funkcija) (podpis)",
+    "imgBatteryLabel": "Nalepka baterije",
+    "imgManufacturerInfo": "Informacije o proizvajalcu in izdelku",
+    "imgDateCode": "Koda datuma proizvodnje",
+    "imgCE": "Oznaka CE",
+    "imgWEEE": "Simbol za ločeno zbiranje",
+    "imgStamp": "Podpis in žig podjetja",
+    "imgZoomHint": "Kliknite za povečavo"
   },
   "es": {
     "langLabel": "Idioma",
@@ -2046,7 +2207,14 @@ window.I18N = {
     "secGeneralFull": "I. Información general sobre las baterías",
     "conformityMarking": "Marcado de conformidad",
     "signedPlaceDate": "(lugar y fecha de emisión):",
-    "signedNameFunction": "(nombre, cargo) (firma)"
+    "signedNameFunction": "(nombre, cargo) (firma)",
+    "imgBatteryLabel": "Etiqueta de la batería",
+    "imgManufacturerInfo": "Información del fabricante y del producto",
+    "imgDateCode": "Código de fecha de producción",
+    "imgCE": "Marcado CE",
+    "imgWEEE": "Símbolo de recogida selectiva",
+    "imgStamp": "Firma y sello de la empresa",
+    "imgZoomHint": "Haga clic para ampliar"
   },
   "sv": {
     "langLabel": "Språk",
@@ -2126,6 +2294,13 @@ window.I18N = {
     "secGeneralFull": "I. Allmän information om batterier",
     "conformityMarking": "Överensstämmelsemärkning",
     "signedPlaceDate": "(plats och datum för utfärdande):",
-    "signedNameFunction": "(namn, befattning) (underskrift)"
+    "signedNameFunction": "(namn, befattning) (underskrift)",
+    "imgBatteryLabel": "Batterietikett",
+    "imgManufacturerInfo": "Tillverkar- och produktinformation",
+    "imgDateCode": "Tillverkningsdatumkod",
+    "imgCE": "CE-märkning",
+    "imgWEEE": "Symbol för separat insamling",
+    "imgStamp": "Underskrift och företagsstämpel",
+    "imgZoomHint": "Klicka för att förstora"
   }
 };
