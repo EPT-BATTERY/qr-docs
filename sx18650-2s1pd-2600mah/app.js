@@ -34,7 +34,7 @@
     { num: 7, l: 'lblChemical', v: 'Li-ion NMC' },
     { num: 8, l: 'lblHazardous', v: '@valHazardous' },
     { num: 9, l: 'lblExtinguishing', v: '@valExtinguishing' },
-    { num: 10, l: 'lblRaw', v: 'Li, Ni, Co, Mn, C, Al, Cu' },
+    { num: 10, l: 'lblRaw', v: 'Li,Ni,Co,Mn,C,Al,Cu' },
     { num: 11, l: 'lblCodeDate', v: '@valCodeDate' }
   ];
 
